@@ -368,7 +368,7 @@ else:
 
     if button:
 
-        filename='dtc.sav'
+        filename='gnb.pkl'
         with open(filename,'rb') as file:
             loaded_model = pickle.load(file)
 
